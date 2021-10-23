@@ -5,7 +5,10 @@ Making a bridge for using Windows hardware stats in WSL Linux
 ## POC
 
 ```shell
-go run main.go
+make poc
+
+# or, if you have jq:
 
 go run main.go | jq .
+make poc | jq .
 ```
